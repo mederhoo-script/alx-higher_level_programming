@@ -13,4 +13,3 @@ def remove_char_at(str, n):
     except:
         IndexError
         return str
-    
