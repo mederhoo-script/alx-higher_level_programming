@@ -4,7 +4,10 @@ from sys import argv
 
 def args_print():
     j = len(argv) - 1
-    print("{} arguments:".format(j))
+    if j == 0:
+        print("{} argument:".format(j))
+    else:
+        print("{} arguments:".format(j))
     for i in range(1, len(argv)):
         print("{}: {}".format(i, argv[1]))
         j += 1
