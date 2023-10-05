@@ -4,13 +4,12 @@ if __name__ == "__main__":
 
     def args_print():
         j = len(argv) - 1
-        if j == 0:
+        if j <= 1:
             print("{} argument:".format(j))
         else:
             print("{} arguments:".format(j))
         for i in range(1, len(argv)):
             print("{}: {}".format(i, argv[1]))
-            j += 1
 
 
 args_print()
