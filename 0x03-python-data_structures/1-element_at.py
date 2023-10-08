@@ -7,4 +7,4 @@ def element_at(my_list, idx):
     elif not str(idx).isdigit():
         return None
     else:
-        return my_list[idx]
+        return int(my_list[idx])
