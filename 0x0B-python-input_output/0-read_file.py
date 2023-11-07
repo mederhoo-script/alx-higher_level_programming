@@ -20,6 +20,6 @@ Args:
         We offer a truly innovative approach to education:
 focus on building reliable applications and scalable s
     """
-    with open(filename, "r", encoding='utf-8') as file:
+    with open(filename, encoding='utf-8') as file:
         output = file.read()
         print(output, end="")
