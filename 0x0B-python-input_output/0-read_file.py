@@ -1,4 +1,4 @@
-#!/usr/bin/pythone3
+#!/usr/bin/python3
 """define a function that reads a text file (UTF8) and prints it to stdout:"""
 
 
