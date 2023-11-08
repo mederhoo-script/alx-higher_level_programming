@@ -11,5 +11,4 @@ def to_json_string(my_obj):
 
     Return: JSON
         """
-    with open(my_obj) as file:
-        return json.dumps(my_obj)
+    return json.dumps(my_obj)
