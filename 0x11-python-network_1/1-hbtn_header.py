@@ -19,5 +19,5 @@ if __name__ == "__main__":
     req = urllib.request.Request(url)
     with urllib.request.urlopen(req) as rep:
         html_rep = rep.read()
-x_id = rep.headers["X-Request-Id"]
+x_id = rep.headers.get("X-Request-Id")
 print(x_id)
